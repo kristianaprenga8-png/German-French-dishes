@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>German–French Dishes</title>
+    <meta charset="UTF-8" />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <h1>German–French Dishes</h1>
+
+   
+    <div class="controls">
+      <input type="text" id="search" placeholder="Search dishes..." />
+      <select id="filter">
+        <option value="all">All</option>
+        <option value="german">German</option>
+        <option value="french">French</option>
+        <option value="fusion">Fusion</option>
+      </select>
+    </div>
+
+    <div class="dish-list" id="dish-list">
+
+      <div class="dish" data-type="french">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Flammkuchen_2.jpg" />
+        <h2>Flammkuchen</h2>
+        <p>A thin Alsatian-style flatbread topped with crème fraîche, onions, and bacon.</p>
+      </div>
+
+      <div class="dish" data-type="fusion">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/Choucroute_garnie_3.jpg" />
+        <h2>Choucroute Garnie</h2>
+        <p>Alsatian sauerkraut served with sausages, pork, and potatoes.</p>
+      </div>
+
+      <div class="dish" data-type="fusion">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Coq_au_Riesling.jpg" />
+        <h2>Coq au Riesling</h2>
+        <p>A French chicken dish cooked with German Riesling wine.</p>
+      </div>
+
+      <div class="dish" data-type="french">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Baeckeoffe_alsacien.jpg" />
+        <h2>Baeckeoffe</h2>
+        <p>A hearty Alsatian casserole of marinated meats, potatoes, and onions.</p>
+      </div>
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
