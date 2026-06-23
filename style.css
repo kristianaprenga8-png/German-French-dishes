@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: #f7f7f7;
+    background: #c9a227;
     margin: 0;
     padding: 20px;
 }
@@ -58,4 +58,20 @@ h1 {
 
 .dish p {
     color: #444;
+}
+#generate {
+    padding: 10px 20px;
+    background: #7A1F2A;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.generated {
+    border: 2px solid #7A1F2A;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
